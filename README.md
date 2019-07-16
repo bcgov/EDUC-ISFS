@@ -1,2 +1,2 @@
 # EDUC-ISFS
-Independent School Financial System
+Independent Schools Funding System
