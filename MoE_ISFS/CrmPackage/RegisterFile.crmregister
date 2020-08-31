@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Register xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/crm/2011/tools/pluginregistration">
+  <Solutions>
+    <Solution Assembly="MoE_ISFS.ISFSPlugins.dll" Id="6cc25ef0-bf90-48d3-bf01-48c2ee3b2930" IsolationMode="Sandbox" SourceType="Database">
+      <PluginTypes>
+        <clear />
+        <Plugin Description="Plug-in to Update of isfs_isenrolmentdetail" FriendlyName="Update of isfs_isenrolmentdetail" Name="MoE_ISFS.ISFSPlugins.PostEnrolmentDetailUpdate" Id="7d0ad7f2-c4ac-4f74-93ed-d670d4c93b5a" TypeName="MoE_ISFS.ISFSPlugins.PostEnrolmentDetailUpdate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Update of isfs_isenrolmentdetail" Description="Update of isfs_isenrolmentdetail" FilteringAttributes="isfs_adjustedenrolmentnumber" Id="87b1cddc-6274-ea11-a811-000d3a0c8a65" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_isenrolmentdetail" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images>
+                <Image EntityAlias="postImage" Name="postImage" Id="d04abdf0-6274-ea11-a811-000d3a0c8f2a" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to Create of isfs_disbursementcreation" FriendlyName="Create of isfs_disbursementcreation" Name="MoE_ISFS.ISFSPlugins.PostDisbursementCreationCreate" Id="2adb437f-3ad0-48bf-94cf-3f5159e78af3" TypeName="MoE_ISFS.ISFSPlugins.PostDisbursementCreationCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Create of isfs_disbursementcreation" Description="Create of isfs_disbursementcreation" Id="06d6553d-7294-ea11-a812-000d3a0c8f2a" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Asynchronous" PrimaryEntityName="isfs_disbursementcreation" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000" />
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to Update of isfs_grantpayment" FriendlyName="Update of isfs_grantpayment" Name="MoE_ISFS.ISFSPlugins.PostGrantPaymentUpdate" Id="3c4e4299-8c48-45e0-a9c9-70d33c61c7af" TypeName="MoE_ISFS.ISFSPlugins.PostGrantPaymentUpdate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Update of isfs_grantpayment" Description="Update of isfs_grantpayment" FilteringAttributes="isfs_paymentdetailcreatedon" Id="fd79b3e2-36ac-ea11-a812-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Asynchronous" PrimaryEntityName="isfs_grantpayment" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images>
+                <Image EntityAlias="postImage" Name="postImage" Id="25b96422-37ac-ea11-a812-000d3a0c94a6" MessagePropertyName="Target" ImageType="PostImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PostGrantPaymentCreate" FriendlyName="PostGrantPaymentCreate" Name="MoE_ISFS.ISFSPlugins.PostGrantPaymentCreate" Id="60a5ce83-f9c4-4e5f-8c21-dfde89112680" TypeName="MoE_ISFS.ISFSPlugins.PostGrantPaymentCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="PostGrantPaymentCreate" Description="PostGrantPaymentCreate" Id="6fadd8fc-ebd1-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="isfs_grantpayment" Rank="1" Stage="PostOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images>
+                <clear />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreValidateFundingScheduleUpdate" FriendlyName="PreValidateFundingScheduleUpdate" Name="MoE_ISFS.ISFSPlugins.PreValidateFundingScheduleUpdate" Id="b82ed72d-9543-48e6-88c8-fdf2522859e3" TypeName="MoE_ISFS.ISFSPlugins.PreValidateFundingScheduleUpdate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="PreValidateFundingScheduleUpdate" Description="PreValidateFundingScheduleUpdate" FilteringAttributes="isfs_disbursementdate" Id="98492b78-8fda-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_fundingschedule" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to PreValidateiFundingScheduleCreate" FriendlyName="PreValidateiFundingScheduleCreate" Name="MoE_ISFS.ISFSPlugins.PreValidateiFundingScheduleCreate" Id="065bd413-3226-474d-b5ee-96619e8f55bd" TypeName="MoE_ISFS.ISFSPlugins.PreValidateiFundingScheduleCreate">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="PreValidateiFundingScheduleCreate" Description="PreValidateiFundingScheduleCreate" Id="ef5507a2-97da-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Create" Mode="Synchronous" PrimaryEntityName="isfs_fundingschedule" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images />
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to Delete of isfs_schooldisbursementdetail" FriendlyName="Delete of isfs_schooldisbursementdetail" Name="MoE_ISFS.ISFSPlugins.PreValidateDeletePaidRecord" Id="b77f9e7f-774d-488c-aa05-5744b05629d0" TypeName="MoE_ISFS.ISFSPlugins.PreValidateDeletePaidRecord">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Delete of isfs_schooldisbursement" Description="Delete of isfs_schooldisbursement" Id="519ab90a-d3e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="isfs_schooldisbursement" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="77bc4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="01f2e7c5-cce0-ea11-a813-000d3a0c94a6" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Delete of isfs_schooldisbursementdetail" Description="Delete of isfs_schooldisbursementdetail" Id="f0418e0c-d3e0-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="isfs_schooldisbursementdetail" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="ab4349da-c7e0-ea11-a813-000d3a0c86a9" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Delete of isfs_fundingscheduledetail" Description="Delete of isfs_fundingscheduledetail" Id="5e652188-d2e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="isfs_fundingscheduledetail" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="74bb4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="3c784293-d2e0-ea11-a813-000d3a0c94a6" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Delete of isfs_fundingschedule" Description="Delete of isfs_fundingschedule" Id="0286afa1-d2e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="isfs_fundingschedule" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="4fbb4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="ce70a6b1-d2e0-ea11-a813-000d3a0c94a6" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Delete of isfs_authoritydisbursement" Description="Delete of isfs_authoritydisbursement" Id="969d8cbb-d2e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="isfs_authoritydisbursement" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="2cb94c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="2a117fcd-d2e0-ea11-a813-000d3a0c86a9" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Delete of isfs_grantpayment" Description="Delete of isfs_grantpayment" Id="5a82f4dc-d2e0-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Delete" Mode="Synchronous" PrimaryEntityName="isfs_grantpayment" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="99bb4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="2712d2eb-d2e0-ea11-a813-000d3a0c86a9" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+        <Plugin Description="Plug-in to Update of isfs_schooldisbursementdetail" FriendlyName="Update of isfs_schooldisbursementdetail" Name="MoE_ISFS.ISFSPlugins.PreValidateActivatePaidRecord" Id="c40e1c2a-9377-49af-ae9e-b6d847129071" TypeName="MoE_ISFS.ISFSPlugins.PreValidateActivatePaidRecord">
+          <Steps>
+            <clear />
+            <Step AsyncAutoDelete="false" Name="Update of isfs_schooldisbursementdetail" Description="Update of isfs_schooldisbursementdetail" FilteringAttributes="statecode" Id="107c3ead-d0e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_schooldisbursementdetail" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="00000000-0000-0000-0000-000000000000">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="414385cc-d0e0-ea11-a813-000d3a0c94a6" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Update of isfs_schooldisbursement" Description="Update of isfs_schooldisbursement" FilteringAttributes="statecode" Id="87e71b78-d1e0-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_schooldisbursement" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="7abc4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="f44749c1-d1e0-ea11-a813-000d3a0c86a9" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Update of isfs_fundingscheduledetail" Description="Update of isfs_fundingscheduledetail" FilteringAttributes="statecode" Id="3814acd5-d1e0-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_fundingscheduledetail" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="77bb4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="07b3afe1-d1e0-ea11-a813-000d3a0c94a6" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Update of isfs_fundingschedule" Description="Update of isfs_fundingschedule" FilteringAttributes="statecode" Id="27b47ff7-d1e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_fundingschedule" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="52bb4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="b2ce9509-d2e0-ea11-a813-000d3a0c86a9" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Update of isfs_authoritydisbursement" Description="Update of isfs_authoritydisbursement" FilteringAttributes="statecode" Id="f073121c-d2e0-ea11-a813-000d3a0c86a9" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_authoritydisbursement" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="2fb94c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="f20d5428-d2e0-ea11-a813-000d3a0c86a9" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+            <Step AsyncAutoDelete="false" Name="Update of isfs_grantpayment" Description="Update of isfs_grantpayment" FilteringAttributes="statecode" Id="6be95840-d2e0-ea11-a813-000d3a0c94a6" ImpersonatingUserId="00000000-0000-0000-0000-000000000000" MessageName="Update" Mode="Synchronous" PrimaryEntityName="isfs_grantpayment" Rank="1" Stage="PreOutsideTransaction" SupportedDeployment="ServerOnly" MessageEntityId="9cbb4c54-9caa-ea11-a812-000d3a0c86a9">
+              <Images>
+                <Image EntityAlias="preImage" Name="preImage" Id="4477494c-d2e0-ea11-a813-000d3a0c94a6" MessagePropertyName="Target" ImageType="PreImage" />
+              </Images>
+            </Step>
+          </Steps>
+        </Plugin>
+      </PluginTypes>
+    </Solution>
+  </Solutions>
+  <XamlWorkflows />
+</Register>
