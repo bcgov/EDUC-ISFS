@@ -1,0 +1,18 @@
+<fetch distinct="true" useraworderby="false" no-lock="false" mapping="logical">
+	<entity name="isfs_schooldisbursement">
+		<filter type="and">
+			<condition attribute="isfs_ignoresyfilter" value="1" operator="ne" />
+		</filter>
+		<link-entity name="isfs_fundingschedule" to="isfs_fundingschedule" from="isfs_fundingscheduleid" link-type="inner" alias="FundingSchedule">
+			<link-entity name="isfs_grantprogram" alias="ac" link-type="inner" to="isfs_grantprogram" from="isfs_grantprogramid" alias="GP">
+				<attribute name="isfs_grantprogramid" />
+				<attribute name="isfs_name" />
+				<link-entity name="isfs_schoolyear" link-type="inner" to="isfs_schoolyear" from="isfs_schoolyearid">
+					<filter type="and">
+						<condition attribute="isfs_schoolyear" operator="eq" value="12345" />
+				</filter>
+				</link-entity>
+			</link-entity>
+		</link-entity>
+	</entity>
+</fetch>

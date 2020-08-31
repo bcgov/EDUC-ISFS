@@ -1,0 +1,254 @@
+https://myrshost/ReportServer?/AdventureWorks 2008R2/Employee_Sales_Summary_2008R2&ReportMonth=3&ReportYear=2008
+
+
+
+https://isfsdev.crm3.dynamics.com/crmreports/viewer/viewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd
+&p:SY=c65bc34c-9daa-ea11-a812-000d3a0c86a9   (isfs_schoolyear[isfs_schoolyear/isfs_schoolyearname]) "2019/20 SY"
+&p:GrantProgram=5af9f449-a2aa-ea11-a813-000d3a0c83bf   (isfs_grantprogram[isfs_grantprogramid/isfs_name]) "Distributed Learning Funding"
+&p:DisbursementDate=f07b2ff8-5dab-ea11-a813-000d3a0c8d89   isfs_fundingschedule[isfs_fundingschedule/isfs_disbursementdate]) "10/1/2019"
+&p:Authority=eeeb69dc-a7aa-ea11-a812-000d3a0c86a9   (isfs_authority[isfs_authority/isfs_authorityno]) "502"
+&rs:Format=PDF
+
+
+
+CRM_FilteredEntity
+
+
+https://isfsdev.crm3.dynamics.com/crmreports/viewer/viewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd&p:SY=2019%2F20+SY&p:GrantProgram=Distributed+Learning+Funding&p:DisbursementDate=10%2F1%2F2019&p:Authority=577
+
+&p:OpType=Export&p:FileName=report.pdf&p:ContentDisposition=OnlyHtmlInline&p:Format=PDF
+
+
+
+
+
+https://isfsdev.crm3.dynamics.com/Reserved.ReportViewerWebControl.axd?ReportSession=repl51vgqoms4g3fjynorp45&Culture=1033&CultureOverrides=True&UICulture=1033&UICultureOverrides=True&ReportStack=1&ControlID=ion=repl51vgqoms4g3fjynorp45&Cul&OpType=Export&FileName=Public&ContentDisposition=OnlyHtmlInline&Format=PDF&p:SY=c65bc34c-9daa-ea11-a812-000d3a0c86a9&p:GrantProgram=5af9f449-a2aa-ea11-a813-000d3a0c83bf&p:DisbursementDate=3-31-2020&p:Authority=507
+
+
+
+https://isfsdev.crm3.dynamics.com/Reserved.ReportViewerWebControl.axd?ReportSession=repl51vgqoms4g3fjynorp45&Culture=1033&CultureOverrides=True&UICulture=1033&UICultureOverrides=True&ReportStack=1&ControlID=ion=repl51vgqoms4g3fjynorp45&Cul&OpType=Export&FileName=Public&ContentDisposition=OnlyHtmlInline&Format=PDF&SY=2019%2F20%20SY&GrantProgram=Distributed%20Learning%20Funding&DisbursementDate=3%2F31%2F2020&Authority=507
+
+
+
+https://isfsdev.crm3.dynamics.com/crmreports/viewer/viewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd&p:SY=2019%2F20+SY&p:GrantProgram=Distributed+Learning+Funding&p:DisbursementDate=10%2F1%2F2019&p:Authority=577
+https://isfsdev.crm3.dynamics.com/crmreports/viewer/viewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd&p:SY=2019%2F20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3%2F31%2F2020&p:Authority=507
+
+https://isfsdev.crm3.dynamics.com/CRMReports/viewer/viewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd&p:SY=2019/20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3/31/2020&p:Authority=507
+
+
+https://isfsdev.crm3.dynamics.com/CRMReports/rsviewer/reportviewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd&p:SY=2019/20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3/31/2020&p:Authority=507
+
+
+https://isfsdev.crm3.dynamics.com/CRMReports/rsviewer/reportviewer.aspx?id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&uniquename=org0c1c0ad0&iscustomreport=true&reportnameonsrs=&reportName=DL+Funding+Statement&isScheduledReport=false
+
+
+https://isfsdev.crm3.dynamics.com/CRMReports/rsviewer/reportviewer.aspx?id={3d48c0d7-b0b9-ea11-a812-000d3a0c86a9}&iscustomreport=true&p:SY=2019/20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3/31/2020&p:Authority=507
+https://isfsdev.crm3.dynamics.com/Reserved.ReportViewerWebControl.axd?id={3d48c0d7-b0b9-ea11-a812-000d3a0c86a9}&uniquename=org0c1c0ad0&iscustomreport=true&reportnameonsrs=&reportName=DL+Funding+Statement&isScheduledReport=false&p:SY=2019/20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3/31/2020&p:Authority=507
+
+
+https://isfsdev.crm3.dynamics.com/Reserved.ReportViewerWebControl.axd?ReportSession=repl51vgqoms4g3fjynorp45&Culture=1033&CultureOverrides=True&UICulture=1033&UICultureOverrides=True&ReportStack=1&ControlID=859d81f879d04c87ba9100a796ccd27d&OpType=Export&FileName=Public&ContentDisposition=OnlyHtmlInline&Format=PDF&p:SY=2019/20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3/31/2020&p:Authority=507
+
+
+/Reserved.ReportViewerWebControl.axd?ReportSession=repl51vgqoms4g3fjynorp45&Culture=1033&CultureOverrides=True&UICulture=1033&UICultureOverrides=True&ReportStack=1&ControlID=e440105867d249ce8a45696677d42bcb&OpType=Export&FileName=Report1&ContentDisposition=OnlyHtmlInline&Format=XML
+&ReportSession=repl51vgqoms4g3fjynorp45
+&ControlID=e440105867d249ce8a45696677d42bcb
+
+
+
+https://isfsdev.crm3.dynamics.com/CRMReports/viewer/viewer.aspx?action=run&id=3d48c0d7-b0b9-ea11-a812-000d3a0c86a9&helpID=DL%20Funding%20Statement.rdl&appid=e4b597a9-5a65-4ece-a145-77e1d677c5bd&p:SY=2019/20%20SY&p:GrantProgram=Distributed%20Learning%20Funding&p:DisbursementDate=3/31/2020&p:Authority=507
+
+
+
+<!DOCTYPE html>
+<html>
+<head><title>
+	CRM Report Viewer
+</title>
+    <style type="text/css">
+	body
+	{
+		background-color: #FFFFFF;
+		margin:0px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+		scroll=none;
+		
+	}
+
+	/* Make report viewer loading message have full screen width so it doesnt get cut off */
+	div.MSRS-RVC .WaitControlBackground {
+		width: 100%;
+		text-align: center;
+	}
+	div.MSRS-RVC .WaitControlBackground table {
+		margin: auto;
+	}
+	</style>
+	<script type="text/javascript" language="javascript">
+		//Bug 1056166: Report with Fixed headers not displaying correctly - To set the Iframe body height to the content document height for resolving the duplicate fixed header issue in Report
+		window.addEventListener('DOMContentLoaded', function () {
+			var bodyHeight = window.parent.document.body.clientHeight;
+			document.querySelector("body").style.height = bodyHeight + "px";
+		});
+		//Bug 1314234 & 1156107 : Workaround provided by SSRS team to recalculate ReportViewer control height  on report window resize.
+		window.addEventListener('resize', function () {
+			var reportViewerId = "#reportViewer";
+			try
+			{
+				var reportViewer = document.querySelector(reportViewerId);
+				if (reportViewer) {
+					reportViewer.style.height = "100%";
+					//Bug 1056166: Report with Fixed headers not displaying correctly - For chrome browser there are two headers showing on browser window resize.
+					window.setTimeout(function () {
+						var element = document.querySelector(reportViewerId + " span");
+						if (element && element.control) {
+							element.control.OnWindowResize();
+						}
+					},1000);
+				}
+			}
+			catch (e)
+			{
+				throw e
+			}
+		});
+
+		if (window.getComputedStyle != null)
+		{
+			//Work around bug in ReportViewer control where it calls getComputedStyle() on the document instead of the documentElement.(CRM 254659)
+			var baseGetComputedStyle = window.getComputedStyle;
+			window.getComputedStyle = function (elt, pseudoElt)
+			{
+				try
+				{
+					return baseGetComputedStyle(elt, pseudoElt);
+				}
+				catch (e)
+				{
+					if (elt.documentElement)
+					{
+						return baseGetComputedStyle(elt.documentElement, pseudoElt);
+					}
+					else
+					{
+						throw e;
+					}
+				}
+			}
+		}
+
+		//CRM 261784: When exporting a report, the ReportViewer calls window.open() with a url to download.
+		//In Outlook, we're in an Outlook Inspector window, and the new window opens a Web Browser. This creates a new session, 
+		// forcing the user to sign in again, and the load balancer may pick a different Server, which causes the download to fail because of the new session.
+		//Currently the only call to window.open() on this page is from the ReportViewer export button. So overriding it to make sure we open URL within the same window.
+		// download URL from the ReportViewer:
+		// "/Reserved.ReportViewerWebControl.axd?ReportSession=repl51vgqoms4g3fjynorp45&Culture=1033&CultureOverrides=True&UICulture=1033&UICultureOverrides=True&ReportStack=1&ControlID=e440105867d249ce8a45696677d42bcb&OpType=Export&FileName=Report1&ContentDisposition=OnlyHtmlInline&Format=XML"
+		if (window.open != null)
+		{
+			var baseOpen = window.open;
+			window.open = function (URL, name, specs, replace)
+			{
+				//Only want to use this new open() method if we're in Outlook and we're exporting something from the ReportViewer.
+				if (window.parent.shouldLaunchPageInOutlookHostedWindow(URL)
+					&& URL.toUpperCase().indexOf("RESERVED.REPORTVIEWERWEBCONTROL.AXD") != -1
+					&& URL.toUpperCase().indexOf("OPTYPE=EXPORT") != -1)
+				{
+					//true = relative path
+					window.parent.openUrl(URL, true);
+				}
+				else
+				{
+					if (_isIE())
+					{
+						// IE does not set the referrer property for window.open(). In order for IE to set the referrer, instead it will simulate
+						// clicking an anchor tag.
+						var id = "ie-window-open-substitute";
+						var anchor = document.getElementById(id);
+						if (!anchor)
+						{
+							anchor = document.createElement("a");
+							anchor.id = id;
+							anchor.style.display = "none";
+							document.body.appendChild(anchor);
+						}
+						anchor.href = URL;
+						anchor.target = name;
+						anchor.click();
+					}
+					else
+					{
+						baseOpen(URL, name, specs, replace);
+					}
+				}
+			}
+
+			/**
+			 * Returns whether the browser is IE
+			 */
+			function _isIE()
+			{
+				return window.navigator.userAgent.indexOf("Trident") !== -1;
+			}
+		}
+	</script>
+</head>
+
+<body style="">
+
+<div style="height:100%; width:100%; position:absolute">
+	<form method="post" action="./reportviewer.aspx" id="form1" style="height:100%">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTczNzU0MzY2MQ9kFgICAQ9kFgICAw8UKwAFDxYWHg5Qcm9jZXNzaW5nTW9kZQspkAFNaWNyb3NvZnQuUmVwb3J0aW5nLldlYkZvcm1zLlByb2Nlc3NpbmdNb2RlLCBNaWNyb3NvZnQuUmVwb3J0Vmlld2VyLldlYkZvcm1zLCBWZXJzaW9uPTE1LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTg5ODQ1ZGNkODA4MGNjOTEBHg5SZW5kZXJpbmdTdGF0ZQsplgFNaWNyb3NvZnQuUmVwb3J0aW5nLldlYkZvcm1zLlJlcG9ydFJlbmRlcmluZ1N0YXRlLCBNaWNyb3NvZnQuUmVwb3J0Vmlld2VyLldlYkZvcm1zLCBWZXJzaW9uPTE1LjAuMC4wLCBDdWx0dXJlPW5ldXRyYWwsIFB1YmxpY0tleVRva2VuPTg5ODQ1ZGNkODA4MGNjOTEAHg9IeXBlcmxpbmtUYXJnZXQFBl9ibGFuax4ZSW50ZXJhY3Rpdml0eVBvc3RCYWNrTW9kZQspmwFNaWNyb3NvZnQuUmVwb3J0aW5nLldlYkZvcm1zLkludGVyYWN0aXZpdHlQb3N0QmFja01vZGUsIE1pY3Jvc29mdC5SZXBvcnRWaWV3ZXIuV2ViRm9ybXMsIFZlcnNpb249MTUuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49ODk4NDVkY2Q4MDgwY2M5MQEeDkFzeW5jUmVuZGVyaW5naB4TU2hvd0NyZWRlbnRpYWxzQXJlYWgeCUJhY2tDb2xvcgn/3cT/HgpGb250X05hbWVzFQMIU2Vnb2UgVUkGVGFob21hBUFyaWFsHglGb250X1NpemUoKiJTeXN0ZW0uV2ViLlVJLldlYkNvbnRyb2xzLkZvbnRVbml0BDExcHgeDFNjcm9sbFRhcmdldGQeBF8hU0ICiAxkKClYU3lzdGVtLkd1aWQsIG1zY29ybGliLCBWZXJzaW9uPTQuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49Yjc3YTVjNTYxOTM0ZTA4OSQ2NWE3NGI5MC1mOWVjLTQzZTQtYmVmYy1mNDUwM2U0ZmNhNzMCARQrAAEUKwAEZhQrAAQFGDN1bnh0MjQ1Y3cwY3BvdnJ4bndzMG40NRQrAQAFGERMIEZ1bmRpbmcgU3RhdGVtZW50LnJkbAIBZGRkFgICAg9kFgJmD2QWAmYPZBYMAgYPDxYIHwcVAwhTZWdvZSBVSQZUYWhvbWEFQXJpYWwfCCgrBwQxMXB4HgtIYXNDb250cm9sc2cfCgKADGQWCgICD2QWAgIDDw8WAh4EVGV4dGVkZAIED2QWAgIBDxBkZBYBZmQCBg9kFgICAQ8QZGQWAGQCCA9kFgICAQ8QZGQWAGQCCg9kFgICAQ8QZGQWAGQCBw9kFgICAg8WAh4FVmFsdWUFBWZhbHNlZAIIDw8WAh4HVmlzaWJsZWhkZAIKD2QWAgICDxYCHw0FBWZhbHNlZAILD2QWAmYPZBYCZg9kFgRmDw9kFgIeBXN0eWxlBRB2aXNpYmlsaXR5Om5vbmU7ZAIDD2QWBAIBDxYCHgdFbmFibGVkaGQCBA8WAh8NBQMxMDBkAhAPZBYCAgEPFgIfDQUFRmFsc2VkGAEFHl9fQ29udHJvbHNSZXF1aXJlUG9zdEJhY2tLZXlfXxYCBRxyZXBvcnRWaWV3ZXIkVG9nZ2xlUGFyYW0kaW1nBRZyZXBvcnRWaWV3ZXIkY3RsMTEkaW1nSYuUCXOEoEn1xCA1+FI+AF/SzedwaMxY0QZFdf8J0NE=" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=TS7lqEvcH35rNSvLMUS3N-FXgXKlpjeIC7ReLLJi-xx6_ak3tx6Id_ZpzH6nYU-RxHcAVcdLdaUEVvkSFtU3q2pdNi38xvjbIGBuGDjFHb41&amp;t=637100806445053551" type="text/javascript"></script>
+
+
+<script src="/Reserved.ReportViewerWebControl.axd?OpType=Resource&amp;Version=15.0.1358.0&amp;Name=Microsoft.Reporting.WebForms.Scripts.jquery.min.js" type="text/javascript"></script>
+<script src="/Reserved.ReportViewerWebControl.axd?OpType=Resource&amp;Version=15.0.1358.0&amp;Name=Microsoft.Reporting.WebForms.Scripts.knockoutjs.js" type="text/javascript"></script>
+<script src="/Reserved.ReportViewerWebControl.axd?OpType=Resource&amp;Version=15.0.1358.0&amp;Name=Microsoft.Reporting.WebForms.Scripts.Html5Renderer.js" type="text/javascript"></script>
+<script src="/Reserved.ReportViewerWebControl.axd?OpType=Resource&amp;Version=15.0.1358.0&amp;Name=Microsoft.Reporting.WebForms.Scripts.RSTelemetry.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+    var RS;
+    var RSTelemetry;
+
+    if (RS && RS.Telemetry) {
+        try {
+            RSTelemetry = new RS.Telemetry({"Host":"Microsoft.ReportViewer.WebForms","Build":"15.0.1358.0","HashedUserId":"43FB607935C11AE655D839B28870975856588D024988E2588D4D3BF23C51CEE0","HashedAppSite":"6CAB29009157C4B7D70098F1E0407D0AA2A046499AD6DC75313691CB2ED5DE3A","HashedAppPath":"9F7E0C77CEB7DF85E00BAB7991B1F99D2E8F800C8254FEDAFC15E1521D678FC7"});
+        } catch (exception) {
+            console.log(exception);
+        }
+    }
+    if (RS && RS.Telemetry) {
+        try {
+            RSTelemetry.trackPageView({"HashedRvcId":"ED01E04518ED6478E1BD8F177D275E6D05A2D2FD964E94F612252CC96535963F","ProcessingMode":"Remote","RSBuild":"2015.131.5820.21","HashedInstanceId":"3BE40F3B21F499D681EE6BDBC0301EAF888193CCA8201D84385D9244281F2AC0","HashedReportPath":"44C00305671A68A9800B5F7F5ACCC0DFFE8B4D70927CEED1C6BABFCED985CFED"});
+        } catch (exception) {
+            console.log(exception);
+        }
+    }
+//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=e0jwI7ksUsrS20vSkckUxDGYIfelPK1MBXdXkXW5fMsUXavNjhLkzSSHb7wG1tvM0i7jXfL1SUzywLbLd_87ANjUrw54UMRwnAdvfesY3IzAkvyobm69KkJZmE9pGhhZjJi0ALg-BiIuIoAWMJb_F6mEIAWOCMIWul2HiF9Y6pU1&amp;t=ffffffff9a9577e8" type="text/javascript"></script>
+<script src="/ScriptResource.axd?d=W2vJmqCURQyZIjXBEty-_HdpA0bNzYCQ2ITTMfa87pUMt0A14Lfj03IrwdutF9_8QlUjKBUFBYcZm5hrqQMnUxTimqBmP_ha3orK_ymflTZPAWjTjqpwNwi2CRmiEGbdzSsTk72Tvtyv-6lpn7ONSR12DTn_DmR1BohvII-9qKDanm2eXWxgAS9AUMZtM4L70&amp;t=ffffffff9a9577e8" type="text/javascript"></script>
+<script src="/Reserved.ReportViewerWebControl.axd?OpType=Resource&amp;Ve…"

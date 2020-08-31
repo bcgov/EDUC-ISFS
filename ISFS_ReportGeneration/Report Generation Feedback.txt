@@ -1,0 +1,18 @@
+Report Generation Feedback:
+----------------------------
+
+- DL (16)
+- FN (29)/IS (180)/SE (195)
+
+
+TODO:
+
+
+DONE:
+- Message if no authorities found
+- Need to store in ZIP for download
+- Support multiple report types
+- Name report files properly
+- Name downloaded zip properly
+
+IN/FS/SE - 1668f008-05a5-ea11-a812-000d3a0c8a65
