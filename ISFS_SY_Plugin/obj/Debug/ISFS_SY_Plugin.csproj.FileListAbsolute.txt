@@ -1,0 +1,11 @@
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\bin\Debug\MoE_ISFS.ISFS_SY_Plugins.dll
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\bin\Debug\MoE_ISFS.ISFS_SY_Plugins.pdb
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.dll
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\bin\Debug\Microsoft.Xrm.Sdk.dll
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\bin\Debug\Microsoft.Crm.Sdk.Proxy.xml
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\bin\Debug\Microsoft.Xrm.Sdk.xml
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\obj\Debug\ISFS_SY_Plugin.csproj.CoreCompileInputs.cache
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\obj\Debug\ISFS_SY_Plugin.csproj.CopyComplete
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\obj\Debug\MoE_ISFS.ISFS_SY_Plugins.dll
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\obj\Debug\MoE_ISFS.ISFS_SY_Plugins.pdb
+C:\Users\mikej\OneDrive - level-up.ca\Documents\Clients\ITK\MoE\ISFS\Code\ISFS_SY_Plugin\obj\Debug\ISFS_SY_Plugin.csprojAssemblyReference.cache

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1062
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISFS_SY_Plugin", "ISFS_SY_Plugin.csproj", "{8656C053-7CB0-4E0F-8556-6E18DB56ABFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISFS_EnrollmentDiff_Plugin", "..\ISFS_EnrollmentDiff_Plugin\ISFS_EnrollmentDiff_Plugin.csproj", "{2A6241F7-3080-4B67-9E2B-1EE1434FDCBB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8656C053-7CB0-4E0F-8556-6E18DB56ABFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8656C053-7CB0-4E0F-8556-6E18DB56ABFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8656C053-7CB0-4E0F-8556-6E18DB56ABFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8656C053-7CB0-4E0F-8556-6E18DB56ABFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A6241F7-3080-4B67-9E2B-1EE1434FDCBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A6241F7-3080-4B67-9E2B-1EE1434FDCBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A6241F7-3080-4B67-9E2B-1EE1434FDCBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A6241F7-3080-4B67-9E2B-1EE1434FDCBB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6C974157-E322-4DED-91F9-023CE27DCBE9}
+	EndGlobalSection
+EndGlobal
